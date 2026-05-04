@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Humble Abode</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Color scheme */
+        :root {
+            --forest-green: #1b4332;
+            --light-bg: #f5f5f5;
+            --text-dark: #2d2d2d;
+            --accent: #1b4332;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--light-bg);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* Hero section - the welcome screen */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #f5f5f5 0%, #efefef 100%);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero-content h1 {
+            font-size: 4rem;
+            color: var(--forest-green);
+            margin-bottom: 20px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            color: #666;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+
+        .cta-button {
+            background-color: var(--forest-green);
+            color: white;
+            padding: 12px 40px;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            letter-spacing: 1px;
+        }
+
+        .cta-button:hover {
+            background-color: #0f2818;
+            transform: translateY(-2px);
+        }
+
+        /* Coming soon message */
+        .coming-soon {
+            margin-top: 60px;
+            font-size: 0.9rem;
+            color: #999;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>My Humble Abode</h1>
+            <p>A personal space for thoughts, moments, and reflections</p>
+            <button class="cta-button">Enter the Pinboard</button>
+            <div class="coming-soon">
+                <p>✨ Coming soon: Your shuffling pinboard of posts ✨</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
