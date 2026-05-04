@@ -1,33 +1,74 @@
-[  
-  {  
-    "type": "journal",  
-    "title": "Today I learned something new",  
-    "date": "2026-05-04",  
-    "text": "I spent my day learning about JSON structures and how to manipulate them in working projects.",  
-    "images": [  
-      {  
-        "url": "https://example.com/image1.jpg",  
-        "memory_text": "Reflecting on my learning journey."  
-      }  
-    ]  
-  },  
-  {  
-    "type": "song",  
-    "title": "Learning Song",  
-    "artist": "The Educators",  
-    "lyrics": "These are the lyrics to the learning song...",  
-    "analysis": "This song illustrates the joy of learning and the value of education."  
-  },  
-  {  
-    "type": "quote",  
-    "text": "The more that you read, the more things you will know. The more that you learn, the more places you'll go.",  
-    "author": "Dr. Seuss",  
-    "source": "I Can Read With My Eyes Shut!",  
-    "analysis": "This quote emphasizes the importance of reading and learning."  
-  },  
-  {  
-    "type": "tweet",  
-    "text": "Just completed my latest project! #accomplished",  
-    "date": "2026-05-04"  
-  }  
+[
+  {
+    "type": "journal",
+    "title": "Today I learned something new",
+    "date": "2026-05-04",
+    "text": "I spent my day learning about JSON structures and how to manipulate them in working projects. It's fascinating how data can be organized in such a clean way!"
+  },
+  {
+    "type": "journal",
+    "title": "Reflections on learning",
+    "date": "2026-05-03",
+    "text": "Started building my personal website today. It's coming together nicely and I'm excited to see what it becomes."
+  },
+  {
+    "type": "picture",
+    "title": "Beautiful sunset",
+    "date": "2026-05-02",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1495567720989-cebab533de10?w=400",
+        "memory_text": "Captured this amazing sunset at the beach. The colors were absolutely stunning!"
+      }
+    ]
+  },
+  {
+    "type": "picture",
+    "title": "Morning coffee",
+    "date": "2026-05-01",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+        "memory_text": "My favorite morning ritual - a quiet moment with a hot cup of coffee."
+      }
+    ]
+  },
+  {
+    "type": "song",
+    "title": "Imagine",
+    "artist": "John Lennon",
+    "lyrics": "Imagine all the people living life in peace...",
+    "analysis": "This song is a timeless classic about unity and peace. It reminds us of what we could achieve if we worked together."
+  },
+  {
+    "type": "song",
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "lyrics": "Is this the real life? Is this just fantasy?",
+    "analysis": "An absolute masterpiece that blends rock, opera, and ballad seamlessly. Pure genius."
+  },
+  {
+    "type": "quote",
+    "text": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "source": "Stanford Commencement Speech",
+    "analysis": "This quote resonates deeply with me. It reminds me to pursue things I'm passionate about."
+  },
+  {
+    "type": "quote",
+    "text": "Life is what happens when you're busy making other plans.",
+    "author": "John Lennon",
+    "source": "Beautiful Boy",
+    "analysis": "A reminder to be present and enjoy the moment rather than always focusing on the future."
+  },
+  {
+    "type": "tweet",
+    "text": "Just finished a great book! Feeling inspired and ready to tackle new projects.",
+    "date": "2026-05-04"
+  },
+  {
+    "type": "tweet",
+    "text": "Sometimes the best ideas come when you're not trying to think of them.",
+    "date": "2026-05-03"
+  }
 ]
